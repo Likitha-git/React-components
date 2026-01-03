@@ -1,0 +1,42 @@
+/* Page background */
+.page {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Light mode */
+.page.light {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+/* Dark mode */
+.page.dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+/* Toggle styles */
+.toggle-container {
+  text-align: center;
+}
+
+.toggle-btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+
+.toggle-btn.off {
+  background-color: #6b7280;
+}
+
+.toggle-btn.on {
+  background-color: #16a34a;
+}
+
